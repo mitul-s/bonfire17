@@ -1,0 +1,119 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  background-color:rgb(236, 235, 232);
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 50px;
+  margin: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+  background:rgb(252, 212, 217);
+}
+
+#sidebar {
+  border-right: solid 10px grey;
+  border-color: black;
+  border-width: medium;
+  position: fixed;
+  width: 20%;
+  height: 200vh;
+  background-color: white;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 80%;
+}
+
+#social {
+  margin-top: 20px;
+  background: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+/*section {
+  margin-left: 300px;
+  width: 100%
+}*/
+
+#col-nowplaying {
+  border-width: thin;
+  border-style:solid;
+  border-color: darkgrey;
+  width: 600px;
+  height: 360px;
+  padding: 10px;
+  margin-left: 65px;
+  background-color: white;
+}
+
+#col-upnext {
+  width: 250px;
+  height: 360px;
+  border-width: thin;
+  border-style: solid;
+  border-color: darkgrey;
+  padding: 10px;
+  margin-left: 30px;
+  background-color: white;
+}
+
+
+.btn {
+  color: white;
+  padding: 20px;
+  background: black;
+  text-decoration: none;
+  margin-top: 20px;
+  width: 200px;
+  border: none;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.btn:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  color: black;
+  background:rgb(252, 212, 217);
+}
+
+.center {
+  text-align: center;
+}
+
+#music {
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  padding: 20px !important;
+  width: 80% !important;
+  margin-left: 20% !important;
+}
+
+#recs {
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  background: white;
+  margin-left: 5.5%;
+  margin-right: 5.5%;
+  margin-top: 20px;
+  border-width: thin;
+  border-style:solid;
+  border-color: darkgrey;
+}
+
+input {
+  margin-bottom: 20px;
+}

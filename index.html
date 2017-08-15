@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Music Reccomendations</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="grid.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="main.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="sidebar">
+      <div class="content"> </div>
+      <img class="logo" src="https://cdn3.iconfinder.com/data/icons/ultimate-social/150/41_itunes-512.png" alt="Music Logo">
+      <h2 id="social">Social</h2>
+      <a class="twitter-timeline" data-width="230" data-height="600" data-theme="light" data-link-color="#E81C4F" scrolling="yes" href="https://twitter.com/TwitterMusic/timelines/393773266801659904">Music Superstars - Curated tweets by TwitterMusic</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
+    <div class="container">
+    <section id="music">
+        <h1>Music Hub</h1>
+        <h3>Music Reccomendations</h3>
+    </section>
+
+      <div class="wrap">
+   <div class="search">
+
+   </div>
+</div>
+
+<div class="row">
+    <div id="col-nowplaying" class="col-md-6">
+      <h2>Now Playing</h2>
+      <iframe src="https://open.spotify.com/embed?uri=spotify:user:spotify:playlist:3rgsDhGHZxZ9sB9DQWQfuf&theme=white" width="580" height="80" frameborder="0" allowtransparency="true"></iframe>
+    </div>
+
+
+    <div id="col-upnext" class="col-md-6">
+      <h2>Up Next</h2>
+      <iframe src="https://open.spotify.com/embed?uri=spotify:user:spotify:playlist:3rgsDhGHZxZ9sB9DQWQfuf&theme=white" width="230" height="290" frameborder="0" allowtransparency="true"></iframe>
+    </div>
+</div>
+
+  <div id="recs">
+    <p>Which artist do you like?</p>
+    <input type="text" placeholder="e.g. Kanye West" id="name" value=""/>
+  </div>
+
+  <div class="row center">
+      <div id="artists" class="col-md-12">
+        <div id="similar">
+          <div class="row">
+            <div class="col-md-4">
+              <h3 id="artistName"></h3>
+              <div id="artistImage"></div>
+            </div>
+            <div class="col-md-4">
+          <h3 id="artistName2"></h3>
+          <div id="artistImage2"></div>
+            </div>
+            <div class="col-md-4">
+          <h3 id="artistName3"></h3>
+          <div id="artistImage3"></div>
+            </div>
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
